@@ -1,0 +1,7 @@
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int :: android.permission.ACCESS_FINE_LOCATION
+android.support.v7.app.TwilightManager.getLastKnownLocationForProvider(java.lang.String)android.location.Location :: android.permission.ACCESS_FINE_LOCATION
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int :: android.permission.ACCESS_COARSE_LOCATION
+android.support.v7.app.TwilightManager.getLastKnownLocationForProvider(java.lang.String)android.location.Location :: android.permission.ACCESS_COARSE_LOCATION
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable :: android.permission.READ_EXTERNAL_STORAGE
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor :: android.permission.READ_EXTERNAL_STORAGE
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable :: android.permission.READ_EXTERNAL_STORAGE

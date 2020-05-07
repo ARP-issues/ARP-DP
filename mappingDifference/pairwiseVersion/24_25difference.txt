@@ -1,0 +1,1 @@
+android.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean :: android.permission.READ_PHONE_STATE

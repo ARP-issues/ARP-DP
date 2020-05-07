@@ -1,0 +1,418 @@
+android.accounts.AccountManager.getAuthenticatorTypesAsUser(int)android.accounts.AuthenticatorDescription[] :: android.permission.INTERACT_ACROSS_USERS_FULL
+android.accounts.AccountManager.getAccountsByType(java.lang.String)android.accounts.Account[] :: android.permission.GET_ACCOUNTS, android.permission.GET_ACCOUNTS, android.permission.GET_ACCOUNTS
+android.accounts.AccountManager.hasFeatures(android.accounts.Account,java.lang.String[],android.accounts.AccountManagerCallback<java.lang.Boolean>,android.os.Handler)android.accounts.AccountManagerFuture<java.lang.Boolean> :: android.permission.GET_ACCOUNTS
+android.accounts.AccountManager.getAccountsByTypeAndFeatures(java.lang.String,java.lang.String[],android.accounts.AccountManagerCallback<android.accounts.Account[]>,android.os.Handler)android.accounts.AccountManagerFuture<android.accounts.Account[]> :: android.permission.GET_ACCOUNTS, android.permission.GET_ACCOUNTS, android.permission.GET_ACCOUNTS
+android.app.ActivityManager.getRecentTasksForUser(int,int,int)java.util.List<android.app.ActivityManager.RecentTaskInfo> :: android.permission.INTERACT_ACROSS_USERS_FULL
+android.app.ActivityManager.addOnUidImportanceListener(android.app.ActivityManager.OnUidImportanceListener,int)void :: android.permission.PACKAGE_USAGE_STATS, android.permission.PACKAGE_USAGE_STATS
+android.app.ActivityManager.forceStopPackageAsUser(java.lang.String,int)void :: android.permission.FORCE_STOP_PACKAGES
+android.app.ActivityManager.handleIncomingUser(int,int,int,boolean,boolean,java.lang.String,java.lang.String)int :: android.permission.INTERACT_ACROSS_USERS_FULL, android.permission.INTERACT_ACROSS_USERS
+android.app.admin.DevicePolicyManager.setAlwaysOnVpnPackage(android.content.ComponentName,java.lang.String,boolean)void :: android.permission.BIND_VPN_SERVICE
+android.app.admin.DevicePolicyManager.setDeviceProvisioningConfigApplied()void :: android.permission.MANAGE_USERS
+android.app.admin.DevicePolicyManager.isDeviceProvisioningConfigApplied()boolean :: android.permission.MANAGE_USERS
+android.app.admin.DevicePolicyManager.forceUpdateUserSetupComplete()void :: android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS
+android.app.admin.DevicePolicyManager.bindDeviceAdminServiceAsUser(android.content.ComponentName,android.content.Intent,android.content.ServiceConnection,int,android.os.UserHandle)boolean :: android.permission.BIND_DEVICE_ADMIN
+android.app.admin.DevicePolicyManager.getOwnerInstalledCaCerts(android.os.UserHandle)java.util.List<java.lang.String> :: android.permission.INTERACT_ACROSS_USERS_FULL
+android.app.trust.TrustManager.reportUnlockAttempt(boolean,int)void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+android.app.trust.TrustManager.reportUnlockLockout(int,int)void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+android.app.trust.TrustManager.reportEnabledTrustAgentsChanged(int)void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+android.app.trust.TrustManager.reportKeyguardShowingChanged()void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+android.app.trust.TrustManager.registerTrustListener(android.app.trust.TrustManager.TrustListener)void :: android.permission.TRUST_LISTENER
+android.app.trust.TrustManager.unregisterTrustListener(android.app.trust.TrustManager.TrustListener)void :: android.permission.TRUST_LISTENER
+android.app.usage.StorageStatsManager.queryStatsForPackage(java.util.UUID,java.lang.String,android.os.UserHandle)android.app.usage.StorageStats :: android.permission.PACKAGE_USAGE_STATS
+android.app.usage.StorageStatsManager.queryStatsForUid(java.util.UUID,int)android.app.usage.StorageStats :: android.permission.PACKAGE_USAGE_STATS
+android.app.usage.StorageStatsManager.queryStatsForUser(java.util.UUID,android.os.UserHandle)android.app.usage.StorageStats :: android.permission.PACKAGE_USAGE_STATS
+android.app.usage.StorageStatsManager.queryExternalStatsForUser(java.util.UUID,android.os.UserHandle)android.app.usage.ExternalStorageStats :: android.permission.PACKAGE_USAGE_STATS
+android.app.WallpaperManager.setResource(int)void :: android.permission.SET_WALLPAPER
+android.app.WallpaperManager.setBitmap(android.graphics.Bitmap)void :: android.permission.SET_WALLPAPER
+android.app.WallpaperManager.setBitmap(android.graphics.Bitmap,android.graphics.Rect,boolean)int :: android.permission.SET_WALLPAPER
+android.app.WallpaperManager.setBitmap(android.graphics.Bitmap,android.graphics.Rect,boolean,int,int)int :: android.permission.INTERACT_ACROSS_USERS_FULL
+android.app.WallpaperManager.setStream(java.io.InputStream)void :: android.permission.SET_WALLPAPER
+android.app.WallpaperManager.setStream(java.io.InputStream,android.graphics.Rect,boolean)int :: android.permission.SET_WALLPAPER
+android.app.WallpaperManager.suggestDesiredDimensions(int,int)void :: android.permission.SET_WALLPAPER_HINTS
+android.app.WallpaperManager.clear()void :: android.permission.SET_WALLPAPER
+android.appwidget.AppWidgetManager.bindAppWidgetIdIfAllowed(int,android.os.UserHandle,android.content.ComponentName,android.os.Bundle)boolean :: android.permission.BIND_APPWIDGET
+android.bluetooth.BluetoothA2dp.connect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dp.disconnect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dp.setPriority(android.bluetooth.BluetoothDevice,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dp.isA2dpPlaying(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothA2dpSink.connect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dpSink.disconnect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dpSink.setPriority(android.bluetooth.BluetoothDevice,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothA2dpSink.getPriority(android.bluetooth.BluetoothDevice)int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothA2dpSink.isA2dpPlaying(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothAdapter.disable(boolean)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothAdapter.getName()java.lang.String :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothAdapter.factoryReset()boolean :: android.permission.BLUETOOTH_PRIVILEGED
+android.bluetooth.BluetoothAdapter.getUuids()android.os.ParcelUuid[] :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothAdapter.setScanMode(int,int)boolean :: android.permission.WRITE_SECURE_SETTINGS
+android.bluetooth.BluetoothAdapter.listenUsingRfcommOn(int)android.bluetooth.BluetoothServerSocket :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothAdapter.listenUsingRfcommOn(int,boolean,boolean)android.bluetooth.BluetoothServerSocket :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothAdapter.listenUsingEncryptedRfcommWithServiceRecord(java.lang.String,java.util.UUID)android.bluetooth.BluetoothServerSocket :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothAdapter.readOutOfBandData()android.util.Pair<byte[], byte[]> :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothAdapter.changeApplicationBluetoothState(boolean,android.bluetooth.BluetoothAdapter.BluetoothStateChangeCallback)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.getBatteryLevel()int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.createBond(int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.setDeviceOutOfBandData(byte[],byte[])boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.cancelBondProcess()boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.removeBond()boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.isConnected()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.isEncrypted()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.setPin(byte[])boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.getPhonebookAccessPermission()int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.setPhonebookAccessPermission(int)boolean :: android.permission.BLUETOOTH_PRIVILEGED
+android.bluetooth.BluetoothDevice.getMessageAccessPermission()int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.setMessageAccessPermission(int)boolean :: android.permission.BLUETOOTH_PRIVILEGED
+android.bluetooth.BluetoothDevice.getSimAccessPermission()int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.setSimAccessPermission(int)boolean :: android.permission.BLUETOOTH_PRIVILEGED
+android.bluetooth.BluetoothDevice.createRfcommSocket(int)android.bluetooth.BluetoothSocket :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.createL2capSocket(int)android.bluetooth.BluetoothSocket :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.createInsecureL2capSocket(int)android.bluetooth.BluetoothSocket :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothDevice.createInsecureRfcommSocket(int)android.bluetooth.BluetoothSocket :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothDevice.createScoSocket()android.bluetooth.BluetoothSocket :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothGatt.registerApp(android.bluetooth.BluetoothGattCallback,android.os.Handler)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.disconnect()void :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.discoverServices()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.discoverServiceByUuid(java.util.UUID)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.getServices()java.util.List<android.bluetooth.BluetoothGattService> :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.getService(java.util.UUID)android.bluetooth.BluetoothGattService :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.readCharacteristic(android.bluetooth.BluetoothGattCharacteristic)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.readUsingCharacteristicUuid(java.util.UUID,int,int)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.writeCharacteristic(android.bluetooth.BluetoothGattCharacteristic)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.readDescriptor(android.bluetooth.BluetoothGattDescriptor)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.writeDescriptor(android.bluetooth.BluetoothGattDescriptor)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.beginReliableWrite()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.executeReliableWrite()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.abortReliableWrite()void :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.setCharacteristicNotification(android.bluetooth.BluetoothGattCharacteristic,boolean)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.readRemoteRssi()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGatt.requestMtu(int)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattCharacteristic.addDescriptor(android.bluetooth.BluetoothGattDescriptor)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattDescriptor.getInstanceId()int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.connect(android.bluetooth.BluetoothDevice,boolean)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.cancelConnection(android.bluetooth.BluetoothDevice)void :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.sendResponse(android.bluetooth.BluetoothDevice,int,int,int,byte[])boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.notifyCharacteristicChanged(android.bluetooth.BluetoothDevice,android.bluetooth.BluetoothGattCharacteristic,boolean)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.addService(android.bluetooth.BluetoothGattService)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.removeService(android.bluetooth.BluetoothGattService)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.clearServices()void :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.getServices()java.util.List<android.bluetooth.BluetoothGattService> :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattServer.getService(java.util.UUID)android.bluetooth.BluetoothGattService :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattService.addService(android.bluetooth.BluetoothGattService)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothGattService.addCharacteristic(android.bluetooth.BluetoothGattCharacteristic)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.connect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothHeadset.disconnect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothHeadset.setPriority(android.bluetooth.BluetoothDevice,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothHeadset.getPriority(android.bluetooth.BluetoothDevice)int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.startVoiceRecognition(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.stopVoiceRecognition(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.isAudioConnected(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.isAudioOn()boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHeadset.sendVendorSpecificResultCode(android.bluetooth.BluetoothDevice,java.lang.String,java.lang.String)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.registerSinkAppConfiguration(java.lang.String,int,android.bluetooth.BluetoothHealthCallback)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.registerAppConfiguration(java.lang.String,int,int,int,android.bluetooth.BluetoothHealthCallback)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.unregisterAppConfiguration(android.bluetooth.BluetoothHealthAppConfiguration)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.connectChannelToSource(android.bluetooth.BluetoothDevice,android.bluetooth.BluetoothHealthAppConfiguration)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.connectChannelToSink(android.bluetooth.BluetoothDevice,android.bluetooth.BluetoothHealthAppConfiguration,int)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.disconnectChannel(android.bluetooth.BluetoothDevice,android.bluetooth.BluetoothHealthAppConfiguration,int)boolean :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.getMainChannelFd(android.bluetooth.BluetoothDevice,android.bluetooth.BluetoothHealthAppConfiguration)android.os.ParcelFileDescriptor :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.getConnectionState(android.bluetooth.BluetoothDevice)int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.getConnectedDevices()java.util.List<android.bluetooth.BluetoothDevice> :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothHealth.getDevicesMatchingConnectionStates(int[])java.util.List<android.bluetooth.BluetoothDevice> :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothInputDevice.connect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.disconnect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.setPriority(android.bluetooth.BluetoothDevice,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.getPriority(android.bluetooth.BluetoothDevice)int :: android.permission.BLUETOOTH
+android.bluetooth.BluetoothInputDevice.virtualUnplug(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.getProtocolMode(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.setProtocolMode(android.bluetooth.BluetoothDevice,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.getReport(android.bluetooth.BluetoothDevice,byte,byte,int)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.setReport(android.bluetooth.BluetoothDevice,byte,java.lang.String)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.sendData(android.bluetooth.BluetoothDevice,java.lang.String)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.getIdleTime(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothInputDevice.setIdleTime(android.bluetooth.BluetoothDevice,byte)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothPan.connect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.BluetoothPan.disconnect(android.bluetooth.BluetoothDevice)boolean :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.le.AdvertisingSet.enableAdvertising(boolean,int,int)void :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.le.AdvertisingSet.getOwnAddress()void :: android.permission.BLUETOOTH_PRIVILEGED
+android.bluetooth.le.BluetoothLeAdvertiser.startAdvertising(android.bluetooth.le.AdvertiseSettings,android.bluetooth.le.AdvertiseData,android.bluetooth.le.AdvertiseCallback)void :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.le.BluetoothLeAdvertiser.startAdvertising(android.bluetooth.le.AdvertiseSettings,android.bluetooth.le.AdvertiseData,android.bluetooth.le.AdvertiseData,android.bluetooth.le.AdvertiseCallback)void :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.le.BluetoothLeAdvertiser.stopAdvertising(android.bluetooth.le.AdvertiseCallback)void :: android.permission.BLUETOOTH_ADMIN
+android.bluetooth.le.BluetoothLeScanner.startScan(android.bluetooth.le.ScanCallback)void :: android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.bluetooth.le.ScanCallback)void :: android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int :: android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.companion.CompanionDeviceManager.associate(android.companion.AssociationRequest,android.companion.CompanionDeviceManager.Callback,android.os.Handler)void :: android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND, android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND
+android.content.ContentResolver.getSyncAutomatically(android.accounts.Account,java.lang.String)boolean :: android.permission.READ_SYNC_SETTINGS
+android.content.ContentResolver.setSyncAutomatically(android.accounts.Account,java.lang.String,boolean)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.addPeriodicSync(android.accounts.Account,java.lang.String,android.os.Bundle,long)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.removePeriodicSync(android.accounts.Account,java.lang.String,android.os.Bundle)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.cancelSync(android.content.SyncRequest)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.getPeriodicSyncs(android.accounts.Account,java.lang.String)java.util.List<android.content.PeriodicSync> :: android.permission.READ_SYNC_SETTINGS
+android.content.ContentResolver.getIsSyncable(android.accounts.Account,java.lang.String)int :: android.permission.READ_SYNC_SETTINGS
+android.content.ContentResolver.setIsSyncable(android.accounts.Account,java.lang.String,int)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.getMasterSyncAutomatically()boolean :: android.permission.READ_SYNC_SETTINGS
+android.content.ContentResolver.setMasterSyncAutomatically(boolean)void :: android.permission.WRITE_SYNC_SETTINGS
+android.content.ContentResolver.isSyncActive(android.accounts.Account,java.lang.String)boolean :: android.permission.READ_SYNC_STATS
+android.content.ContentResolver.getCurrentSync()android.content.SyncInfo :: android.permission.READ_SYNC_STATS
+android.content.ContentResolver.getCurrentSyncs()java.util.List<android.content.SyncInfo> :: android.permission.READ_SYNC_STATS
+android.content.ContentResolver.isSyncPending(android.accounts.Account,java.lang.String)boolean :: android.permission.READ_SYNC_STATS
+android.content.Context.getExternalFilesDir(java.lang.String)java.io.File :: android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+android.content.Context.getExternalFilesDirs(java.lang.String)java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.content.Context.getObbDir()java.io.File :: android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+android.content.Context.getObbDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.content.Context.getExternalCacheDir()java.io.File :: android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+android.content.Context.getExternalCacheDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.content.Context.getExternalMediaDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.content.Context.setWallpaper(android.graphics.Bitmap)void :: android.permission.SET_WALLPAPER
+android.content.Context.setWallpaper(java.io.InputStream)void :: android.permission.SET_WALLPAPER
+android.content.Context.clearWallpaper()void :: android.permission.SET_WALLPAPER
+android.content.Context.removeStickyBroadcastAsUser(android.content.Intent,android.os.UserHandle)void :: android.permission.BROADCAST_STICKY
+android.content.pm.PackageManager.canRequestPackageInstalls()boolean :: android.permission.REQUEST_INSTALL_PACKAGES
+android.hardware.display.DisplayManager.startWifiDisplayScan()void :: android.permission.CONFIGURE_WIFI_DISPLAY
+android.hardware.display.DisplayManager.stopWifiDisplayScan()void :: android.permission.CONFIGURE_WIFI_DISPLAY
+android.hardware.display.DisplayManager.connectWifiDisplay(java.lang.String)void :: android.permission.CONFIGURE_WIFI_DISPLAY
+android.hardware.display.DisplayManager.renameWifiDisplay(java.lang.String,java.lang.String)void :: android.permission.CONFIGURE_WIFI_DISPLAY
+android.hardware.display.DisplayManager.forgetWifiDisplay(java.lang.String)void :: android.permission.CONFIGURE_WIFI_DISPLAY
+android.hardware.input.InputManager.enableInputDevice(int)void :: android.permission.DISABLE_INPUT_DEVICE
+android.hardware.input.InputManager.disableInputDevice(int)void :: android.permission.DISABLE_INPUT_DEVICE
+android.hardware.input.InputManager.setPointerSpeed(android.content.Context,int)void :: android.permission.WRITE_SETTINGS
+android.hardware.input.InputManager.tryPointerSpeed(int)void :: android.permission.SET_POINTER_SPEED
+android.hardware.input.InputManager.injectInputEvent(android.view.InputEvent,int)boolean :: android.permission.INJECT_EVENTS
+android.hardware.location.GeofenceHardware.getMonitoringTypes()int[] :: android.permission.LOCATION_HARDWARE
+android.hardware.location.GeofenceHardware.removeGeofence(int,int)boolean :: android.permission.ACCESS_FINE_LOCATION, android.permission.LOCATION_HARDWARE
+android.hardware.location.GeofenceHardware.pauseGeofence(int,int)boolean :: android.permission.ACCESS_FINE_LOCATION, android.permission.LOCATION_HARDWARE
+android.hardware.location.GeofenceHardware.resumeGeofence(int,int,int)boolean :: android.permission.ACCESS_FINE_LOCATION, android.permission.LOCATION_HARDWARE
+android.location.LocationManager.addProximityAlert(double,double,float,long,android.app.PendingIntent)void :: android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.location.LocationManager.removeProximityAlert(android.app.PendingIntent)void :: android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.location.LocationManager.removeAllGeofences(android.app.PendingIntent)void :: android.permission.ACCESS_FINE_LOCATION
+android.location.LocationRequest.setWorkSource(android.os.WorkSource)void :: android.permission.UPDATE_DEVICE_STATS
+android.location.LocationRequest.setHideFromAppOps(boolean)void :: android.permission.UPDATE_APP_OPS_STATS
+android.media.AudioManager.startBluetoothSco()void :: android.permission.MODIFY_AUDIO_SETTINGS
+android.media.AudioManager.startBluetoothScoVirtualCall()void :: android.permission.MODIFY_AUDIO_SETTINGS
+android.media.AudioRecordingConfiguration.getClientPackageName()java.lang.String :: android.permission.MODIFY_AUDIO_ROUTING
+android.media.AudioRecordingConfiguration.getClientUid()int :: android.permission.MODIFY_AUDIO_ROUTING
+android.media.MediaExtractor.setDataSource(android.content.Context,android.net.Uri,java.util.Map<java.lang.String, java.lang.String>)void :: android.permission.INTERNET
+android.media.MediaExtractor.setDataSource(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)void :: android.permission.INTERNET
+android.media.MediaExtractor.setDataSource(java.lang.String)void :: android.permission.INTERNET
+android.media.MediaPlayer.setWakeMode(android.content.Context,int)void :: android.permission.WAKE_LOCK
+android.media.RingtoneManager.getCursor()android.database.Cursor :: android.permission.READ_EXTERNAL_STORAGE
+android.media.RingtoneManager.getValidRingtoneUri(android.content.Context)android.net.Uri :: android.permission.READ_EXTERNAL_STORAGE
+android.media.RingtoneManager.openRingtone(android.content.Context,android.net.Uri)java.io.InputStream :: android.permission.READ_EXTERNAL_STORAGE
+android.media.session.MediaSessionManager.getActiveSessions(android.content.ComponentName)java.util.List<android.media.session.MediaController> :: android.permission.MEDIA_CONTENT_CONTROL
+android.media.session.MediaSessionManager.getActiveSessionsForUser(android.content.ComponentName,int)java.util.List<android.media.session.MediaController> :: android.permission.INTERACT_ACROSS_USERS_FULL
+android.media.session.MediaSessionManager.addOnActiveSessionsChangedListener(android.media.session.MediaSessionManager.OnActiveSessionsChangedListener,android.content.ComponentName)void :: android.permission.MEDIA_CONTENT_CONTROL
+android.media.session.MediaSessionManager.addOnActiveSessionsChangedListener(android.media.session.MediaSessionManager.OnActiveSessionsChangedListener,android.content.ComponentName,android.os.Handler)void :: android.permission.MEDIA_CONTENT_CONTROL
+android.media.session.MediaSessionManager.addOnActiveSessionsChangedListener(android.media.session.MediaSessionManager.OnActiveSessionsChangedListener,android.content.ComponentName,int,android.os.Handler)void :: android.permission.MEDIA_CONTENT_CONTROL
+android.net.ConnectivityManager.setAlwaysOnVpnPackageForUser(int,java.lang.String,boolean)boolean :: android.permission.BIND_VPN_SERVICE
+android.net.ConnectivityManager.startUsingNetworkFeature(int,java.lang.String)int :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.stopUsingNetworkFeature(int,java.lang.String)int :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestRouteToHost(int,int)boolean :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestRouteToHostAddress(int,java.net.InetAddress)boolean :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.setBackgroundDataSetting(boolean)void :: android.permission.CHANGE_BACKGROUND_DATA_SETTING
+android.net.ConnectivityManager.tether(java.lang.String)int :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.untether(java.lang.String)int :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.isTetheringSupported()boolean :: android.permission.TETHER_PRIVILEGED
+android.net.ConnectivityManager.setUsbTethering(boolean)int :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.reportInetCondition(int,int)void :: android.permission.STATUS_BAR
+android.net.ConnectivityManager.requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager.NetworkCallback)void :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager.NetworkCallback,android.os.Handler)void :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager.NetworkCallback,int)void :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestNetwork(android.net.NetworkRequest,android.net.ConnectivityManager.NetworkCallback,android.os.Handler,int)void :: android.permission.CHANGE_NETWORK_STATE
+android.net.ConnectivityManager.requestNetwork(android.net.NetworkRequest,android.app.PendingIntent)void :: android.permission.CHANGE_NETWORK_STATE
+android.net.sip.SipAudioCall.setSpeakerMode(boolean)void :: android.permission.MODIFY_AUDIO_SETTINGS
+android.net.sip.SipAudioCall.startAudio()void :: android.permission.RECORD_AUDIO, android.permission.ACCESS_WIFI_STATE, android.permission.WAKE_LOCK
+android.net.TrafficStats.setThreadStatsUid(int)void :: android.permission.UPDATE_DEVICE_STATS
+android.net.VpnService.prepareAndAuthorize(android.content.Context)void :: android.permission.CONTROL_VPN
+android.net.wifi.aware.IdentityChangedListener.onIdentityChanged(byte[])void :: android.permission.ACCESS_COARSE_LOCATION
+android.net.wifi.aware.WifiAwareManager.attach(android.net.wifi.aware.AttachCallback,android.net.wifi.aware.IdentityChangedListener,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
+android.net.wifi.aware.WifiAwareSession.publish(android.net.wifi.aware.PublishConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
+android.net.wifi.aware.WifiAwareSession.subscribe(android.net.wifi.aware.SubscribeConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
+android.net.wifi.WifiManager.getScanResults()java.util.List<android.net.wifi.ScanResult> :: android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+android.net.wifi.WifiManager.setWifiEnabled(boolean)boolean :: android.permission.CHANGE_WIFI_STATE
+android.net.wifi.WifiManager.startLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotCallback,android.os.Handler)void :: android.permission.CHANGE_WIFI_STATE, android.permission.ACCESS_COARSE_LOCATION
+android.net.wifi.WifiManager.watchLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotObserver,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
+android.nfc.cardemulation.CardEmulation.isDefaultServiceForCategory(android.content.ComponentName,java.lang.String)boolean :: android.permission.NFC
+android.nfc.cardemulation.CardEmulation.isDefaultServiceForAid(android.content.ComponentName,java.lang.String)boolean :: android.permission.NFC
+android.nfc.NfcAdapter.setBeamPushUris(android.net.Uri[],android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.setBeamPushUrisCallback(android.nfc.NfcAdapter.CreateBeamUrisCallback,android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.setNdefPushMessage(android.nfc.NdefMessage,android.app.Activity,android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.setNdefPushMessageCallback(android.nfc.NfcAdapter.CreateNdefMessageCallback,android.app.Activity,android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.setOnNdefPushCompleteCallback(android.nfc.NfcAdapter.OnNdefPushCompleteCallback,android.app.Activity,android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.enableForegroundDispatch(android.app.Activity,android.app.PendingIntent,android.content.IntentFilter[],java.lang.String[][])void :: android.permission.NFC
+android.nfc.NfcAdapter.disableForegroundDispatch(android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.enableForegroundNdefPush(android.app.Activity,android.nfc.NdefMessage)void :: android.permission.NFC
+android.nfc.NfcAdapter.disableForegroundNdefPush(android.app.Activity)void :: android.permission.NFC
+android.nfc.NfcAdapter.dispatch(android.nfc.Tag)void :: android.permission.WRITE_SECURE_SETTINGS
+android.nfc.tech.IsoDep.setTimeout(int)void :: android.permission.NFC
+android.nfc.tech.IsoDep.getTimeout()int :: android.permission.NFC
+android.nfc.tech.IsoDep.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.MifareClassic.authenticateSectorWithKeyA(int,byte[])boolean :: android.permission.NFC
+android.nfc.tech.MifareClassic.authenticateSectorWithKeyB(int,byte[])boolean :: android.permission.NFC
+android.nfc.tech.MifareClassic.readBlock(int)byte[] :: android.permission.NFC
+android.nfc.tech.MifareClassic.writeBlock(int,byte[])void :: android.permission.NFC
+android.nfc.tech.MifareClassic.increment(int,int)void :: android.permission.NFC
+android.nfc.tech.MifareClassic.decrement(int,int)void :: android.permission.NFC
+android.nfc.tech.MifareClassic.transfer(int)void :: android.permission.NFC
+android.nfc.tech.MifareClassic.restore(int)void :: android.permission.NFC
+android.nfc.tech.MifareClassic.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.MifareClassic.setTimeout(int)void :: android.permission.NFC
+android.nfc.tech.MifareClassic.getTimeout()int :: android.permission.NFC
+android.nfc.tech.MifareUltralight.readPages(int)byte[] :: android.permission.NFC
+android.nfc.tech.MifareUltralight.writePage(int,byte[])void :: android.permission.NFC
+android.nfc.tech.MifareUltralight.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.MifareUltralight.setTimeout(int)void :: android.permission.NFC
+android.nfc.tech.MifareUltralight.getTimeout()int :: android.permission.NFC
+android.nfc.tech.Ndef.isWritable()boolean :: android.permission.NFC
+android.nfc.tech.Ndef.getNdefMessage()android.nfc.NdefMessage :: android.permission.NFC
+android.nfc.tech.Ndef.writeNdefMessage(android.nfc.NdefMessage)void :: android.permission.NFC
+android.nfc.tech.Ndef.makeReadOnly()boolean :: android.permission.NFC
+android.nfc.tech.NdefFormatable.format(android.nfc.NdefMessage)void :: android.permission.NFC
+android.nfc.tech.NdefFormatable.formatReadOnly(android.nfc.NdefMessage)void :: android.permission.NFC
+android.nfc.tech.NfcA.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.NfcA.setTimeout(int)void :: android.permission.NFC
+android.nfc.tech.NfcA.getTimeout()int :: android.permission.NFC
+android.nfc.tech.NfcB.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.NfcF.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.NfcF.setTimeout(int)void :: android.permission.NFC
+android.nfc.tech.NfcF.getTimeout()int :: android.permission.NFC
+android.nfc.tech.NfcV.transceive(byte[])byte[] :: android.permission.NFC
+android.nfc.tech.TagTechnology.connect()void :: android.permission.NFC
+android.nfc.tech.TagTechnology.reconnect()void :: android.permission.NFC
+android.nfc.tech.TagTechnology.close()void :: android.permission.NFC
+android.os.Environment.getExternalStorageDirectory()java.io.File :: android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_EXTERNAL_STORAGE
+android.os.Environment.maybeTranslateEmulatedPathToInternal(java.io.File)java.io.File :: android.permission.WRITE_MEDIA_STORAGE
+android.os.health.SystemHealthManager.takeUidSnapshot(int)android.os.health.HealthStats :: android.permission.BATTERY_STATS
+android.os.health.SystemHealthManager.takeUidSnapshots(int[])android.os.health.HealthStats[] :: android.permission.BATTERY_STATS
+android.os.PowerManager.newWakeLock(int,java.lang.String)android.os.PowerManager.WakeLock :: android.permission.WAKE_LOCK
+android.os.PowerManager.userActivity(long,boolean)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.userActivity(long,int,int)void :: android.permission.DEVICE_POWER, android.permission.USER_ACTIVITY
+android.os.PowerManager.goToSleep(long)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.goToSleep(long,int,int)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.wakeUp(long)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.nap(long)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.boostScreenBrightness(long)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.setBacklightBrightness(int)void :: android.permission.DEVICE_POWER
+android.os.PowerManager.reboot(java.lang.String)void :: android.permission.REBOOT
+android.os.PowerManager.rebootSafeMode()void :: android.permission.REBOOT
+android.os.PowerManager.getLastShutdownReason()int :: android.permission.DEVICE_POWER
+android.os.RecoverySystem.installPackage(android.content.Context,java.io.File)void :: android.permission.REBOOT
+android.os.RecoverySystem.rebootWipeUserData(android.content.Context)void :: android.permission.REBOOT
+android.os.RecoverySystem.rebootWipeUserData(android.content.Context,boolean,java.lang.String,boolean,boolean)void :: android.permission.REBOOT
+android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent :: android.permission.READ_EXTERNAL_STORAGE, android.permission.WRITE_EXTERNAL_STORAGE
+android.os.storage.VolumeInfo.getInternalPathForUser(int)java.io.File :: android.permission.WRITE_MEDIA_STORAGE
+android.os.StrictMode.detectFileUriExposure()android.os.StrictMode.VmPolicy.Builder :: android.permission.READ_EXTERNAL_STORAGE
+android.os.UserManager.isManagedProfile(int)boolean :: android.permission.MANAGE_USERS
+android.os.UserManager.getManagedProfileBadge(int)int :: android.permission.MANAGE_USERS
+android.os.UserManager.setUserEnabled(int)void :: android.permission.MANAGE_USERS
+android.os.UserManager.isSameProfileGroup(int,int)boolean :: android.permission.MANAGE_USERS
+android.os.UserManager.removeUser(int)boolean :: android.permission.MANAGE_USERS
+android.os.UserManager.setUserName(int,java.lang.String)void :: android.permission.MANAGE_USERS
+android.os.UserManagerInternal.removeUserEvenWhenDisallowed(int)boolean :: android.permission.MANAGE_USERS
+android.provider.Settings.canDrawOverlays(android.content.Context)boolean :: android.permission.SYSTEM_ALERT_WINDOW
+android.provider.Settings.canWrite(android.content.Context)boolean :: android.permission.WRITE_SETTINGS
+android.service.carrier.CarrierService.notifyCarrierNetworkChange(boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.support.v4.content.ContextCompat.getObbDirs(android.content.Context)java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.support.v4.content.ContextCompat.getExternalFilesDirs(android.content.Context,java.lang.String)java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.support.v4.content.ContextCompat.getExternalCacheDirs(android.content.Context)java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
+android.support.v4.net.ConnectivityManagerCompat.isActiveNetworkMetered(android.net.ConnectivityManager)boolean :: android.permission.ACCESS_NETWORK_STATE
+android.telecom.TelecomManager.getDefaultOutgoingPhoneAccount(java.lang.String)android.telecom.PhoneAccountHandle :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.getCallCapablePhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle> :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle> :: android.permission.READ_PHONE_STATE, android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.setDefaultDialer(java.lang.String)boolean :: android.permission.MODIFY_PHONE_STATE, android.permission.WRITE_SECURE_SETTINGS
+android.telecom.TelecomManager.isVoiceMailNumber(android.telecom.PhoneAccountHandle,java.lang.String)boolean :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.getVoiceMailNumber(android.telecom.PhoneAccountHandle)java.lang.String :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.getLine1Number(android.telecom.PhoneAccountHandle)java.lang.String :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.isInCall()boolean :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.isInManagedCall()boolean :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.getCallState()int :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.acceptRingingCall(int)void :: android.permission.MODIFY_PHONE_STATE, android.permission.ANSWER_PHONE_CALLS
+android.telecom.TelecomManager.silenceRinger()void :: android.permission.MODIFY_PHONE_STATE
+android.telecom.TelecomManager.addNewIncomingCall(android.telecom.PhoneAccountHandle,android.os.Bundle)void :: android.permission.MANAGE_OWN_CALLS, android.permission.MANAGE_OWN_CALLS
+android.telecom.TelecomManager.handleMmi(java.lang.String)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telecom.TelecomManager.handleMmi(java.lang.String,android.telecom.PhoneAccountHandle)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telecom.TelecomManager.getAdnUriForPhoneAccount(android.telecom.PhoneAccountHandle)android.net.Uri :: android.permission.MODIFY_PHONE_STATE
+android.telecom.TelecomManager.cancelMissedCallsNotification()void :: android.permission.MODIFY_PHONE_STATE
+android.telecom.TelecomManager.showInCallScreen(boolean)void :: android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.placeCall(android.net.Uri,android.os.Bundle)void :: android.permission.CALL_PHONE, android.permission.MANAGE_OWN_CALLS
+android.telephony.CarrierConfigManager.getConfigForSubId(int)android.os.PersistableBundle :: android.permission.READ_PHONE_STATE
+android.telephony.CarrierConfigManager.getConfig()android.os.PersistableBundle :: android.permission.READ_PHONE_STATE
+android.telephony.euicc.EuiccManager.getDefaultDownloadableSubscriptionList(android.app.PendingIntent)void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.euicc.EuiccManager.deleteSubscription(int,android.app.PendingIntent)void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.euicc.EuiccManager.switchToSubscription(int,android.app.PendingIntent)void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.euicc.EuiccManager.updateSubscriptionNickname(int,java.lang.String,android.app.PendingIntent)void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.euicc.EuiccManager.eraseSubscriptions(android.app.PendingIntent)void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.euicc.EuiccManager.retainSubscriptionsForFactoryReset(android.app.PendingIntent)void :: android.permission.MASTER_CLEAR
+android.telephony.PhoneStateListener.onCallStateChanged(int,java.lang.String)void :: android.permission.READ_PHONE_STATE
+android.telephony.SmsManager.sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)void :: android.permission.SEND_SMS
+android.telephony.SmsManager.sendTextMessageWithoutPersisting(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.SmsManager.injectSmsPdu(byte[],java.lang.String,android.app.PendingIntent)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.SmsManager.sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.util.ArrayList<android.app.PendingIntent>,java.util.ArrayList<android.app.PendingIntent>)void :: android.permission.SEND_SMS
+android.telephony.SmsManager.sendMultipartTextMessageWithoutPersisting(java.lang.String,java.lang.String,java.util.List<java.lang.String>,java.util.List<android.app.PendingIntent>,java.util.List<android.app.PendingIntent>)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.SmsManager.sendDataMessage(java.lang.String,java.lang.String,short,byte[],android.app.PendingIntent,android.app.PendingIntent)void :: android.permission.SEND_SMS
+android.telephony.SubscriptionManager.requestEmbeddedSubscriptionInfoListRefresh()void :: android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS
+android.telephony.TelephonyManager.setVisualVoicemailEnabled(android.telecom.PhoneAccountHandle,boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setVisualVoicemailSmsFilterSettings(android.telephony.VisualVoicemailSmsFilterSettings)void :: android.permission.READ_PHONE_STATE, android.permission.READ_PHONE_STATE
+android.telephony.TelephonyManager.sendVisualVoicemailSms(java.lang.String,int,java.lang.String,android.app.PendingIntent)void :: android.permission.SEND_SMS
+android.telephony.TelephonyManager.setVoiceActivationState(int,int)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setDataActivationState(int,int)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccOpenLogicalChannel(java.lang.String)android.telephony.IccOpenLogicalChannelResponse :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccOpenLogicalChannel(java.lang.String,int)android.telephony.IccOpenLogicalChannelResponse :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccOpenLogicalChannel(int,java.lang.String,int)android.telephony.IccOpenLogicalChannelResponse :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccCloseLogicalChannel(int)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccCloseLogicalChannel(int,int)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccTransmitApduLogicalChannel(int,int,int,int,int,int,java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccTransmitApduLogicalChannel(int,int,int,int,int,int,int,java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccTransmitApduBasicChannel(int,int,int,int,int,java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccTransmitApduBasicChannel(int,int,int,int,int,int,java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccExchangeSimIO(int,int,int,int,int,java.lang.String)byte[] :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.iccExchangeSimIO(int,int,int,int,int,int,java.lang.String)byte[] :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.sendEnvelopeWithStatus(java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.sendEnvelopeWithStatus(int,java.lang.String)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.nvReadItem(int)java.lang.String :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.nvWriteItem(int,java.lang.String)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.nvWriteCdmaPrl(byte[])boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.nvResetConfig(int)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.getPreferredNetworkType(int)int :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setNetworkSelectionModeAutomatic(int)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setPreferredNetworkType(int,int)boolean :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.sendUssdRequest(java.lang.String,android.telephony.TelephonyManager.UssdResponseCallback,android.os.Handler)void :: android.permission.CALL_PHONE
+android.telephony.TelephonyManager.setDataEnabled(boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.isDataEnabled()boolean :: android.permission.ACCESS_NETWORK_STATE ACCESS_NETWORK_STATE, android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setSimPowerState(int)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setSimPowerStateForSlot(int,int)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setVoicemailRingtoneUri(android.telecom.PhoneAccountHandle,android.net.Uri)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setVoicemailVibrationEnabled(android.telecom.PhoneAccountHandle,boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.setAllowedCarriers(int,java.util.List<android.service.carrier.CarrierIdentifier>)int :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.carrierActionSetMeteredApnsEnabled(int,boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.TelephonyManager.carrierActionSetRadioEnabled(int,boolean)void :: android.permission.MODIFY_PHONE_STATE
+android.telephony.VisualVoicemailService.setSmsFilterSettings(android.content.Context,android.telecom.PhoneAccountHandle,android.telephony.VisualVoicemailSmsFilterSettings)void :: android.permission.READ_PHONE_STATE, android.permission.READ_PHONE_STATE
+android.telephony.VisualVoicemailService.sendVisualVoicemailSms(android.content.Context,android.telecom.PhoneAccountHandle,java.lang.String,short,java.lang.String,android.app.PendingIntent)void :: android.permission.SEND_SMS
+android.webkit.WebSettings.setBlockNetworkLoads(boolean)void :: android.permission.INTERNET, android.permission.INTERNET
+android.webkit.WebSettings.setGeolocationEnabled(boolean)void :: android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION
+com.android.internal.telephony.IccSmsInterfaceManager.enforcePrivilegedAppPermissions()void :: android.permission.MODIFY_PHONE_STATE
+com.android.internal.util.DumpUtils.checkDumpPermission(android.content.Context,java.lang.String,java.io.PrintWriter)boolean :: android.permission.DUMP
+com.android.internal.util.DumpUtils.checkUsageStatsPermission(android.content.Context,java.lang.String,java.io.PrintWriter)boolean :: android.permission.PACKAGE_USAGE_STATS
+com.android.internal.util.DumpUtils.checkDumpAndUsageStatsPermission(android.content.Context,java.lang.String,java.io.PrintWriter)boolean :: android.permission.DUMP, android.permission.PACKAGE_USAGE_STATS
+com.android.internal.widget.LockPatternUtils.requireCredentialEntry(int)void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+com.android.internal.widget.LockPatternUtils.requireStrongAuth(int,int)void :: android.permission.ACCESS_KEYGUARD_SECURE_STORAGE
+com.android.nfc_extras.NfcAdapterExtras.get(android.nfc.NfcAdapter)com.android.nfc_extras.NfcAdapterExtras :: android.permission.WRITE_SECURE_SETTINGS
+com.android.nfc_extras.NfcAdapterExtras.getCardEmulationRoute()com.android.nfc_extras.NfcAdapterExtras.CardEmulationRoute :: android.permission.WRITE_SECURE_SETTINGS
+com.android.nfc_extras.NfcAdapterExtras.setCardEmulationRoute(com.android.nfc_extras.NfcAdapterExtras.CardEmulationRoute)void :: android.permission.WRITE_SECURE_SETTINGS
+com.android.nfc_extras.NfcExecutionEnvironment.open()void :: android.permission.WRITE_SECURE_SETTINGS
+com.android.nfc_extras.NfcExecutionEnvironment.close()void :: android.permission.WRITE_SECURE_SETTINGS
+com.android.nfc_extras.NfcExecutionEnvironment.transceive(byte[])byte[] :: android.permission.WRITE_SECURE_SETTINGS
+com.android.server.backup.BackupPasswordManager.hasBackupPassword()boolean :: android.permission.BACKUP
+com.android.server.backup.BackupPasswordManager.backupPasswordMatches(java.lang.String)boolean :: android.permission.BACKUP
+com.android.server.backup.BackupPasswordManager.setBackupPassword(java.lang.String,java.lang.String)boolean :: android.permission.BACKUP
+com.android.server.connectivity.Vpn.setAlwaysOnPackage(java.lang.String,boolean)boolean :: android.permission.BIND_VPN_SERVICE
+com.android.server.ConnectivityService.prepareVpn(java.lang.String,java.lang.String,int)boolean :: android.permission.INTERACT_ACROSS_USERS_FULL
+com.android.server.ConnectivityService.setVpnPackageAuthorization(java.lang.String,int,boolean)void :: android.permission.INTERACT_ACROSS_USERS_FULL
+com.android.server.media.MediaSessionService.enforceMediaPermissions(android.content.ComponentName,int,int,int)void :: android.permission.MEDIA_CONTENT_CONTROL
+com.android.server.pm.PackageSender.canViewInstantApps(int,int)boolean :: android.permission.ACCESS_INSTANT_APPS
+com.android.server.pm.UserManagerService.getUserRestrictionSource(java.lang.String,int)int :: android.permission.MANAGE_USERS
+com.android.server.pm.UserManagerService.checkManageUserAndAcrossUsersFullPermission(java.lang.String)void :: android.permission.MANAGE_USERS MANAGE_USERS, android.permission.INTERACT_ACROSS_USERS_FULL
+com.android.server.pm.UserManagerService.checkManageUsersPermission(java.lang.String)void :: android.permission.MANAGE_USERS MANAGE_USERS
+com.android.server.pm.UserManagerService.checkManageOrCreateUsersPermission(java.lang.String)void :: android.permission.MANAGE_USERS MANAGE_USERS, android.permission.CREATE_USERS CREATE_USERS
+com.android.server.pm.UserManagerService.checkManageOrCreateUsersPermission(int)void :: android.permission.CREATE_USERS CREATE_USERS, android.permission.MANAGE_USERS MANAGE_USERS
+com.android.server.pm.UserManagerService.hasManageUsersPermission()boolean :: android.permission.MANAGE_USERS MANAGE_USERS
+com.android.server.pm.UserManagerService.hasManageOrCreateUsersPermission()boolean :: android.permission.MANAGE_USERS MANAGE_USERS, android.permission.CREATE_USERS CREATE_USERS
+com.android.server.wifi.WifiConfigManager.checkAndUpdateLastConnectUid(int,int)boolean :: android.permission.NETWORK_SETTINGS
