@@ -1,21 +1,22 @@
-## Mappings
+### **Description**
 
-Runtime permission have been introduced since Android 6.0(API 23) , and now evolved to Android 10. In order to explore the evolution and problems that arise, it is necessary to have a more detailed mapping relationship for each version.
+This repository includes the mapping relationships between dangerous permissions and Android APIs (API-DP mappings) corresponding to API level 23 to API level 29. The permission specifications are obtained by mining the Javadoc of Android SDK. More importantly, this repository also provides the differences of such mappings across different Android versions. 
 
-We extract mappings from two ways, so for each version there are also two mappings provided(`annotations-Mappings.txt` and `docs-Mappings.txt`).
+We hope that app developers should pay special attention to the evolution of permission specifications and adapt their apps accordingly to avoid incompatibility issues.
 
-### Annotation
+### **Mining API-DP mappings**
 
-In this way, the main method of annotating the need for permission is extracted . The form of the annotation is like :`@RequiresPermission(android.Manifest.permission.PERMISSION_NAME)`. 
+From Android 6.0 (API level 23), Google formally documents permission specifications in two ways: 
 
-### Java Doc
+- using Java annotation `@requiresPermission` to associate APIs with permissions 
+- using `@link android.Manifest.permission# `to describe an API's required permissions.
 
-In this way, the method of including`Requires Permission:{@link android.Manifest.permission# PERMISSION_NAME}` in the Java Doc is extracted.
+To infer API-DP mappings, we developed a tool APMiner (http://arp-issues.github.io/) to analyze the Javadoc of the Android SDK.
 
+### **Evolution of API-DP Mappings** 
 
+In this repository, we provide three types of permission specification changes between different Android versions:
 
-These APIs can be used by developers, so APPs using these APIs are more likely to have permission-related problems, and the reliability of these mapping relationships provides more accurate results .
-
-### Shortcoming
-
-The mappings we extracted from the Java Doc are not very accurate, because some methods may require certain permissions when certain parameters are passed in, but our manner lacks analysis in this scenario and is one of the plans for subsequent improvements.
+- the addition/deletion of permission-protected APIs; 
+- the addition/deletion of dangerous permissions;
+- the changes in the mapping relations between APIs and permissions. 

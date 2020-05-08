@@ -1,23 +1,22 @@
-## Mapping Difference
+### **Description**
 
-We compared the differences in mappings related to dangerous permissions in different versions, and got these results.
+This repository includes the mapping relationships between dangerous permissions and Android APIs (API-DP mappings) corresponding to API level 23 to API level 29. The permission specifications are obtained by mining the Javadoc of Android SDK. More importantly, this repository also provides the differences of such mappings across different Android versions. 
 
-### Change of permission-protected APIs
+We hope that app developers should pay special attention to the evolution of permission specifications and adapt their apps accordingly to avoid incompatibility issues.
 
-- ADD
+### **Mining API-DP mappings**
 
-  If `permission-protected API not in API VERSION_X && permission-protected API in API VERSION_Y` is identified as `ADD`
+From Android 6.0 (API level 23), Google formally documents permission specifications in two ways: 
 
-- DELETE
+- using Java annotation `@requiresPermission` to associate APIs with permissions 
+- using `@link android.Manifest.permission# `to describe an API's required permissions.
 
-  If `permission-protected API in API VERSION_X && permission-protected API  not in API VERSION_Y` is identified as `DELETE`
+To infer API-DP mappings, we developed a tool APMiner (http://arp-issues.github.io/) to analyze the Javadoc of the Android SDK.
 
-### Change of mapping relationships
+### **Evolution of API-DP Mappings** 
 
-- CHANGE
+In this repository, we provide three types of permission specification changes between different Android versions:
 
-  For `permission-protected API`，if the required permission in `VERSION_X` is `List_X`，the required permission in `VERSION_Y` is `List_Y`，if `List_X != List_Y`，then the identifier is `CHANGE`.
-
-### Change of dangerous permissions
-
-As the title says, the difference in dangerous permissions between different versions is recorded here. For example, the permission added in API 29 `android.permission.ACCESS_BACKGROUND_LOCATION`.
+- the addition/deletion of permission-protected APIs; 
+- the addition/deletion of dangerous permissions;
+- the changes in the mapping relations between APIs and permissions. 

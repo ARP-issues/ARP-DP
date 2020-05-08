@@ -5,6 +5,6 @@ Permission:android.permission.ACCESS_COARSE_LOCATION
 android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int#CHANGEadd
 
 Permission:android.permission.READ_EXTERNAL_STORAGE
-android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
-android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE(add)
-android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE

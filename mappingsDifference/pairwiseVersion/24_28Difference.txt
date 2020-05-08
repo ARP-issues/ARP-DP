@@ -40,9 +40,9 @@ android.telephony.TelephonyManager.getLine1Number()java.lang.String#CHANGE
 android.telephony.TelephonyManager.getLine1Number(int)java.lang.String#CHANGE
 
 Permission:android.permission.READ_EXTERNAL_STORAGE
-android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
-android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE(add)
-android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE
 
 Permission:android.permission.ANSWER_PHONE_CALLS
 android.telecom.TelecomManager.acceptRingingCall()void#CHANGE
@@ -73,9 +73,9 @@ android.telephony.TelephonyManager.getMeid(int)java.lang.String#ADD
 android.telephony.TelephonyManager.getVoiceActivationState(int)int#ADD
 android.telecom.TelecomManager.getPhoneAccountsSupportingScheme(java.lang.String)java.util.List<android.telecom.PhoneAccountHandle>#CHANGE
 android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle>#ADD
-android.telecom.TelecomManager.isTtySupported()boolean#CHANGE(add)
+android.telecom.TelecomManager.isTtySupported()boolean#CHANGE
 android.telecom.TelecomManager.isInManagedCall()boolean#ADD
 android.telephony.TelephonyManager.isIdle()boolean#CHANGE
-android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGE(add)android.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean#ADD
+android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGEandroid.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean#ADD
 android.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean#ADD
 android.telephony.PhoneStateListener.onCallStateChanged(int,java.lang.String)void#CHANGE

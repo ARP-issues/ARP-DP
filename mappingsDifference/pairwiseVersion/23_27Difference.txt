@@ -46,9 +46,9 @@ Permission:android.permission.READ_EXTERNAL_STORAGE
 android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent#ADD
 android.media.RingtoneManager.openRingtone(android.content.Context,android.net.Uri)java.io.InputStream#ADD
 android.os.StrictMode.detectFileUriExposure()android.os.StrictMode.VmPolicy.Builder#CHANGE
-android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
-android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE(add)
-android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE
 
 Permission:android.permission.ANSWER_PHONE_CALLS
 android.telecom.TelecomManager.acceptRingingCall()void#CHANGE
@@ -86,7 +86,7 @@ android.telephony.TelephonyManager.getMeid(int)java.lang.String#ADD
 android.telephony.TelephonyManager.getVoiceActivationState(int)int#ADD
 android.telecom.TelecomManager.getPhoneAccountsSupportingScheme(java.lang.String)java.util.List<android.telecom.PhoneAccountHandle>#CHANGE
 android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle>#ADD
-android.telecom.TelecomManager.isTtySupported()boolean#CHANGE(add)
+android.telecom.TelecomManager.isTtySupported()boolean#CHANGE
 android.telecom.TelecomManager.isInManagedCall()boolean#ADD
 android.telephony.TelephonyManager.isIdle()boolean#CHANGE
-android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGE(add)
+android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGE

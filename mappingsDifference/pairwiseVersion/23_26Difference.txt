@@ -81,7 +81,7 @@ android.telephony.TelephonyManager.getMeid(int)java.lang.String#ADD
 android.telephony.TelephonyManager.getVoiceActivationState(int)int#ADD
 android.telecom.TelecomManager.getPhoneAccountsSupportingScheme(java.lang.String)java.util.List<android.telecom.PhoneAccountHandle>#CHANGE
 android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle>#ADD
-android.telecom.TelecomManager.isTtySupported()boolean#CHANGE(add)
+android.telecom.TelecomManager.isTtySupported()boolean#CHANGE
 android.telecom.TelecomManager.isInManagedCall()boolean#ADD
 android.telephony.TelephonyManager.isIdle()boolean#CHANGE
-android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGE(add)
+android.telephony.TelephonyManager.isVideoCallingEnabled()boolean#CHANGE

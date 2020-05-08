@@ -52,9 +52,9 @@ Permission:android.permission.CAMERA
 android.hardware.camera2.CameraManager.openCamera(java.lang.String,java.util.concurrent.Executor,android.hardware.camera2.CameraDevice.StateCallback)void#ADD
 
 Permission:android.permission.READ_EXTERNAL_STORAGE
-android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
-android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE(add)
-android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE(add)
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable#CHANGE
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor#CHANGE
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable#CHANGE
 
 Permission:android.permission.ANSWER_PHONE_CALLS
 android.telecom.TelecomManager.endCall()boolean#CHANGEbetweentwoversion!
