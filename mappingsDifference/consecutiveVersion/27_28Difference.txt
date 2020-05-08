@@ -1,25 +1,25 @@
 Permission:android.permission.SEND_SMS
-android.telephony.SmsManager.sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.util.ArrayList<android.app.PendingIntent>,java.util.ArrayList<android.app.PendingIntent>,int,boolean,int)void add in 28
-android.telephony.SmsManager.sendTextMessageWithoutPersisting(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)void : add in API 28
+android.telephony.SmsManager.sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList<java.lang.String>,java.util.ArrayList<android.app.PendingIntent>,java.util.ArrayList<android.app.PendingIntent>,int,boolean,int)void#ADD
+android.telephony.SmsManager.sendTextMessageWithoutPersisting(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)void#ADD
 
 Permission:android.permission.ACCESS_FINE_LOCATION
-android.net.wifi.rtt.WifiRttManager.startRanging(android.net.wifi.rtt.RangingRequest,java.util.concurrent.Executor,android.net.wifi.rtt.RangingResultCallback)void : add in API 28
-android.location.LocationManager.injectLocation(android.location.Location)boolean add in API28
-android.net.wifi.rtt.WifiRttManager.startRanging(android.os.WorkSource,android.net.wifi.rtt.RangingRequest,java.util.concurrent.Executor,android.net.wifi.rtt.RangingResultCallback)void : add in API 28
+android.net.wifi.rtt.WifiRttManager.startRanging(android.net.wifi.rtt.RangingRequest,java.util.concurrent.Executor,android.net.wifi.rtt.RangingResultCallback)void#ADD
+android.location.LocationManager.injectLocation(android.location.Location)boolean#ADD
+android.net.wifi.rtt.WifiRttManager.startRanging(android.os.WorkSource,android.net.wifi.rtt.RangingRequest,java.util.concurrent.Executor,android.net.wifi.rtt.RangingResultCallback)void#ADD
 
 Permission:android.permission.CAMERA
-android.hardware.camera2.CameraManager.openCamera(java.lang.String,java.util.concurrent.Executor,android.hardware.camera2.CameraDevice.StateCallback)void add in API 28
+android.hardware.camera2.CameraManager.openCamera(java.lang.String,java.util.concurrent.Executor,android.hardware.camera2.CameraDevice.StateCallback)void#ADD
 
-Permission:android.permission.ANSWER_PHONE_CALLS 
-android.telecom.TelecomManager.endCall()boolean permission change
+Permission:android.permission.ANSWER_PHONE_CALLS
+android.telecom.TelecomManager.endCall()boolean#CHANGE
 
-Permission:android.permission.READ_PHONE_STATE * 9
-android.telephony.TelephonyManager.getNai()java.lang.String permission change
-android.telephony.SubscriptionManager.getActiveSubscriptionInfoForSimSlotIndex(int)android.telephony.SubscriptionInfo permission change
-android.telephony.SubscriptionManager.getActiveSubscriptionInfoList()java.util.List<android.telephony.SubscriptionInfo> : permission change
-android.telephony.SubscriptionManager.getActiveSubscriptionInfo(int)android.telephony.SubscriptionInfo : permission change
-android.telephony.SubscriptionManager.getActiveSubscriptionInfoCount()int : permission change
-android.telephony.TelephonyManager.getDataActivationState(int)int permission change
-android.telephony.TelephonyManager.getVoiceActivationState(int)int permission change
-android.telephony.TelephonyManager.setVisualVoicemailSmsFilterSettings(android.telephony.VisualVoicemailSmsFilterSettings)void permission change
-android.telephony.PhoneStateListener.onCallStateChanged(int,java.lang.String)void permission change
+Permission:android.permission.READ_PHONE_STATE
+android.telephony.TelephonyManager.getNai()java.lang.String#CHANGE
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoForSimSlotIndex(int)android.telephony.SubscriptionInfo#CHANGE
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoList()java.util.List<android.telephony.SubscriptionInfo>:#CHANGE
+android.telephony.SubscriptionManager.getActiveSubscriptionInfo(int)android.telephony.SubscriptionInfo:#CHANGE
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoCount()int:#CHANGE
+android.telephony.TelephonyManager.getDataActivationState(int)int#CHANGE
+android.telephony.TelephonyManager.getVoiceActivationState(int)int#CHANGE
+android.telephony.TelephonyManager.setVisualVoicemailSmsFilterSettings(android.telephony.VisualVoicemailSmsFilterSettings)void#CHANGE
+android.telephony.PhoneStateListener.onCallStateChanged(int,java.lang.String)void#CHANGE
