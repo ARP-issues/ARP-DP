@@ -1,0 +1,6 @@
+android.permission.READ_PHONE_NUMBERS
+android.permission.ANSWER_PHONE_CALLS
+android.permission.ACCEPT_HANDOVER
+android.permission.ACCESS_BACKGROUND_LOCATION
+android.permission.ACCESS_MEDIA_LOCATION
+android.permission.ACTIVITY_RECOGNITION

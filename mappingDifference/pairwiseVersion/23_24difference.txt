@@ -1,40 +1,31 @@
-com.android.framework.permission.tests.SmsManagerPermissionTest.testSendDataMessage()void :: android.permission.SEND_SMS
-com.android.framework.permission.tests.SmsManagerPermissionTest.testSendTextMessage()void :: android.permission.SEND_SMS
-android.location.LocationManager.registerGnssStatusCallback(android.location.GnssStatus.Callback)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.registerGnssStatusCallback(android.location.GnssStatus.Callback,android.os.Handler)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback,android.os.Handler)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.addNmeaListener(android.location.OnNmeaMessageListener,android.os.Handler)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.registerGnssNavigationMessageCallback(android.location.GnssNavigationMessage.Callback,android.os.Handler)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.getGpsStatus(android.location.GpsStatus)android.location.GpsStatus :: android.permission.ACCESS_FINE_LOCATION
-android.location.LocationManager.addNmeaListener(android.location.OnNmeaMessageListener)boolean :: android.permission.ACCESS_FINE_LOCATION
-android.telephony.TelephonyManager.getLine1Number(int)java.lang.String :: android.permission.READ_SMS
-android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent :: android.permission.READ_EXTERNAL_STORAGE
-android.media.RingtoneManager.openRingtone(android.content.Context,android.net.Uri)java.io.InputStream :: android.permission.READ_EXTERNAL_STORAGE
-android.os.StrictMode.detectFileUriExposure()android.os.StrictMode.VmPolicy.Builder :: android.permission.READ_EXTERNAL_STORAGE
-android.content.Context.getExternalFilesDirs(java.lang.String)java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
-android.content.Context.getObbDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
-android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent :: android.permission.WRITE_EXTERNAL_STORAGE
-android.content.Context.getExternalCacheDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
-android.content.Context.getExternalMediaDirs()java.io.File[] :: android.permission.WRITE_EXTERNAL_STORAGE
-android.telephony.TelephonyManager.getLteOnCdmaMode(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getSimSerialNumber(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getCdmaEriText(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.isVoiceMailNumber(android.telecom.PhoneAccountHandle,java.lang.String)boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getLine1AlphaTag(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getDefaultOutgoingPhoneAccount(java.lang.String)android.telecom.PhoneAccountHandle :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getNetworkType(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVoiceNetworkType(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getMsisdn(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getVoiceMailNumber(android.telecom.PhoneAccountHandle)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getGroupIdLevel1(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getLine1Number(android.telecom.PhoneAccountHandle)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getLine1Number(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVoiceMailNumber(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getCallCapablePhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle> :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getCdmaEriIconMode(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getSubscriberId(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getDataNetworkType(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getCdmaEriIconIndex(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVoiceMessageCount(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVoiceMailAlphaTag(int)java.lang.String :: android.permission.READ_PHONE_STATE
+Permission:android.permission.ACCESS_FINE_LOCATION
+android.location.LocationManager.registerGnssStatusCallback(android.location.GnssStatus.Callback)boolean#ADD
+android.location.LocationManager.registerGnssStatusCallback(android.location.GnssStatus.Callback,android.os.Handler)boolean#ADD
+android.location.LocationManager.registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback,android.os.Handler)boolean#ADD
+android.location.LocationManager.registerGnssMeasurementsCallback(android.location.GnssMeasurementsEvent.Callback)boolean#ADD
+android.location.LocationManager.ADDNmeaListener(android.location.OnNmeaMessageListener,android.os.Handler)boolean#ADD
+android.location.LocationManager.ADDNmeaListener(android.location.OnNmeaMessageListener)boolean#ADD
+android.location.LocationManager.registerGnssNavigationMessageCallback(android.location.GnssNavigationMessage.Callback,android.os.Handler)boolean#ADD
+android.location.LocationManager.getGpsStatus(android.location.GpsStatus)android.location.GpsStatus#CHANGE
+
+Permission:android.permission.READ_SMS
+android.telephony.TelephonyManager.getLine1Number(int)java.lang.String#ADD
+
+Permission:android.permission.READ_EXTERNAL_STORAGE
+android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent#ADD
+android.media.RingtoneManager.openRingtone(android.content.Context,android.net.Uri)java.io.InputStream#ADD
+android.os.StrictMode.detectFileUriExposure()android.os.StrictMode.VmPolicy.Builder#CHANGE
+
+Permission:android.permission.WRITE_EXTERNAL_STORAGE
+android.content.Context.getExternalFilesDirs(java.lang.String)java.io.File[]#CHANGE
+android.content.Context.getObbDirs()java.io.File[]#CHANGE
+android.os.storage.StorageVolume.createAccessIntent(java.lang.String)android.content.Intent#ADD
+android.content.Context.getExternalCacheDirs()java.io.File[]#CHANGE
+android.content.Context.getExternalMediaDirs()java.io.File[]#CHANGE
+
+Permission:android.permission.READ_PHONE_STATE
+android.telecom.TelecomManager.isVoiceMailNumber(android.telecom.PhoneAccountHandle,java.lang.String)boolean#CHANGE
+android.telecom.TelecomManager.getDefaultOutgoingPhoneAccount(java.lang.String)android.telecom.PhoneAccountHandle#CHANGE
+android.telecom.TelecomManager.getVoiceMailNumber(android.telecom.PhoneAccountHandle)java.lang.String#CHANGE
+android.telecom.TelecomManager.getCallCapablePhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle>#CHANGE
+android.telephony.TelephonyManager.getLine1AlphaTag(int)java.lang.String#ADD

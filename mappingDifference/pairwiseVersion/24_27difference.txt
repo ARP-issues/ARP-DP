@@ -1,54 +1,66 @@
-android.telephony.TelephonyManager.sendVisualVoicemailSms(java.lang.String,int,java.lang.String,android.app.PendingIntent)void :: android.permission.SEND_SMS
-android.telephony.VisualVoicemailService.sendVisualVoicemailSms(android.content.Context,android.telecom.PhoneAccountHandle,java.lang.String,short,java.lang.String,android.app.PendingIntent)void :: android.permission.SEND_SMS
-android.telephony.TelephonyManager.sendVisualVoicemailSmsForSubscriber(int,java.lang.String,int,java.lang.String,android.app.PendingIntent)void :: android.permission.SEND_SMS
-android.telephony.TelephonyManager.getCellLocation()android.telephony.CellLocation :: android.permission.ACCESS_FINE_LOCATION
-android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int :: android.permission.ACCESS_FINE_LOCATION
-android.support.v7.app.TwilightManager.getLastKnownLocationForProvider(java.lang.String)android.location.Location :: android.permission.ACCESS_FINE_LOCATION
-android.accounts.AccountManager.addOnAccountsUpdatedListener(android.accounts.OnAccountsUpdateListener,android.os.Handler,boolean)void :: android.permission.GET_ACCOUNTS
-android.accounts.AccountManager.getAccounts()android.accounts.Account[] :: android.permission.GET_ACCOUNTS
-android.accounts.AccountManager.getAccountsAsUser(int)android.accounts.Account[] :: android.permission.GET_ACCOUNTS
-android.telephony.TelephonyManager.sendUssdRequest(java.lang.String,android.telephony.TelephonyManager.UssdResponseCallback,android.os.Handler)void :: android.permission.CALL_PHONE
-android.telephony.TelephonyManager.call(java.lang.String,java.lang.String)void :: android.permission.CALL_PHONE
-android.telephony.TelephonyManager.endCall()boolean :: android.permission.CALL_PHONE
-android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.aware.IdentityChangedListener.onIdentityChanged(byte[])void :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.aware.WifiAwareSession.subscribe(android.net.wifi.aware.SubscribeConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.WifiManager.startLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotCallback,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.aware.WifiAwareSession.publish(android.net.wifi.aware.PublishConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
-android.telephony.TelephonyManager.getNeighboringCellInfo()java.util.List<android.telephony.NeighboringCellInfo> :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.WifiManager.watchLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotObserver,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
-android.net.wifi.aware.WifiAwareManager.attach(android.net.wifi.aware.AttachCallback,android.net.wifi.aware.IdentityChangedListener,android.os.Handler)void :: android.permission.ACCESS_COARSE_LOCATION
-android.support.v7.app.TwilightManager.getLastKnownLocationForProvider(java.lang.String)android.location.Location :: android.permission.ACCESS_COARSE_LOCATION
-android.telephony.TelephonyManager.getLine1Number()java.lang.String :: android.permission.READ_PHONE_NUMBERS
-android.telephony.TelephonyManager.getLine1Number(int)java.lang.String :: android.permission.READ_PHONE_NUMBERS
-android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable :: android.permission.READ_EXTERNAL_STORAGE
-android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor :: android.permission.READ_EXTERNAL_STORAGE
-android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable :: android.permission.READ_EXTERNAL_STORAGE
-android.telecom.TelecomManager.acceptRingingCall()void :: android.permission.ANSWER_PHONE_CALLS
-android.telecom.TelecomManager.acceptRingingCall(int)void :: android.permission.ANSWER_PHONE_CALLS
-android.telephony.TelephonyManager.isRinging()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getImei(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVisualVoicemailPackageName()java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getForbiddenPlmns(int,int)java.lang.String[] :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.isRadioOn()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.setVisualVoicemailSmsFilterSettings(android.telephony.VisualVoicemailSmsFilterSettings)void :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getDataActivationState(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getImei()java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getCarrierConfig()android.os.PersistableBundle :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getDeviceSoftwareVersion(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.VisualVoicemailService.setSmsFilterSettings(android.content.Context,android.telecom.PhoneAccountHandle,android.telephony.VisualVoicemailSmsFilterSettings)void :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.isRinging()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getServiceState()android.telephony.ServiceState :: android.permission.READ_PHONE_STATE
-android.os.Build.getSerial()java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getForbiddenPlmns()java.lang.String[] :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.isOffhook()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getMeid()java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getVoiceActivationState(int)int :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.getMeid(int)java.lang.String :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getPhoneAccountsSupportingScheme(java.lang.String)java.util.List<android.telecom.PhoneAccountHandle> :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle> :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.isTtySupported()boolean :: android.permission.READ_PHONE_STATE
-android.telecom.TelecomManager.isInManagedCall()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.isIdle()boolean :: android.permission.READ_PHONE_STATE
-android.telephony.TelephonyManager.isVideoCallingEnabled()boolean :: android.permission.READ_PHONE_STATE
+Permission:android.permission.SEND_SMS
+android.telephony.TelephonyManager.sendVisualVoicemailSms(java.lang.String,int,java.lang.String,android.app.PendingIntent)void : add in 26
+android.telephony.VisualVoicemailService.sendVisualVoicemailSms(android.content.Context,android.telecom.PhoneAccountHandle,java.lang.String,short,java.lang.String,android.app.PendingIntent)void : add in 26
+android.telephony.TelephonyManager.sendVisualVoicemailSmsForSubscriber(int,java.lang.String,int,java.lang.String,android.app.PendingIntent)void : add in 26
+
+Permission:android.permission.ACCESS_FINE_LOCATION
+android.telephony.TelephonyManager.getCellLocation()android.telephony.CellLocation permission change
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int        add in 27
+
+Permission:android.permission.GET_ACCOUNTS
+android.accounts.AccountManager.addOnAccountsUpdatedListener(android.accounts.OnAccountsUpdateListener,android.os.Handler,boolean)void : permission change
+android.accounts.AccountManager.getAccounts()android.accounts.Account[]	permission change
+android.accounts.AccountManager.getAccountsAsUser(int)android.accounts.Account[] permission change
+
+Permission:android.permission.CALL_PHONE
+android.telephony.TelephonyManager.sendUssdRequest(java.lang.String,android.telephony.TelephonyManager.UssdResponseCallback,android.os.Handler)void : add in API 26
+android.telephony.TelephonyManager.call(java.lang.String,java.lang.String)void : permission change
+android.telephony.TelephonyManager.endCall()boolean : permission change
+
+Permission:android.permission.ACCESS_COARSE_LOCATION
+android.bluetooth.le.BluetoothLeScanner.startScan(java.util.List<android.bluetooth.le.ScanFilter>,android.bluetooth.le.ScanSettings,android.app.PendingIntent)int        add in 27
+android.net.wifi.aware.IdentityChangedListener.onIdentityChanged(byte[])void	add in 26 
+android.net.wifi.aware.WifiAwareSession.subscribe(android.net.wifi.aware.SubscribeConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void	add in 26
+android.net.wifi.aware.WifiAwareSession.publish(android.net.wifi.aware.PublishConfig,android.net.wifi.aware.DiscoverySessionCallback,android.os.Handler)void	add in 26
+android.net.wifi.aware.WifiAwareManager.attach(android.net.wifi.aware.AttachCallback,android.net.wifi.aware.IdentityChangedListener,android.os.Handler)void	add in 26
+android.net.wifi.WifiManager.startLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotCallback,android.os.Handler)void : add in API 26
+android.net.wifi.WifiManager.watchLocalOnlyHotspot(android.net.wifi.WifiManager.LocalOnlyHotspotObserver,android.os.Handler)void : add in API 26
+android.telephony.TelephonyManager.getNeighboringCellInfo()java.util.List<android.telephony.NeighboringCellInfo> : permission change in API 26
+
+Permission:android.permission.READ_PHONE_NUMBERS
+android.telephony.TelephonyManager.getLine1Number()java.lang.String  permission change
+android.telephony.TelephonyManager.getLine1Number(int)java.lang.String permission change
+
+Permission:android.permission.READ_EXTERNAL_STORAGE
+android.app.WallpaperManager.peekFastDrawable()android.graphics.drawable.Drawable permission change(add)
+android.app.WallpaperManager.getWallpaperFile(int)android.os.ParcelFileDescriptor permission change(add)
+android.app.WallpaperManager.getFastDrawable()android.graphics.drawable.Drawable permission change(add)
+
+Permission:android.permission.ANSWER_PHONE_CALLS
+android.telecom.TelecomManager.acceptRingingCall()void permission change
+android.telecom.TelecomManager.acceptRingingCall(int)void permission change
+
+Permission:android.permission.READ_PHONE_STATE * 23
+android.telephony.TelephonyManager.isRinging()boolean permission change
+android.telecom.TelecomManager.isRinging()boolean permission change
+android.telephony.TelephonyManager.getVisualVoicemailPackageName()java.lang.String : add in API 26
+android.telephony.TelephonyManager.getForbiddenPlmns(int,int)java.lang.String[] add in API 26
+android.telephony.TelephonyManager.getForbiddenPlmns()java.lang.String[] add in API 26	
+android.telephony.TelephonyManager.isRadioOn()boolean : permission change
+android.telephony.TelephonyManager.setVisualVoicemailSmsFilterSettings(android.telephony.VisualVoicemailSmsFilterSettings)void	add in API 26
+android.telephony.TelephonyManager.getDataActivationState(int)int add in API 26
+android.telephony.TelephonyManager.getCarrierConfig()android.os.PersistableBundle add in API 26
+android.telephony.VisualVoicemailService.setSmsFilterSettings(android.content.Context,android.telecom.PhoneAccountHandle,android.telephony.VisualVoicemailSmsFilterSettings)void add in API 26
+android.telephony.TelephonyManager.getServiceState()android.telephony.ServiceState add in API 26
+android.os.Build.getSerial()java.lang.String  add in API 26 
+android.telephony.TelephonyManager.isOffhook()boolean permission change
+android.telephony.TelephonyManager.getMeid()java.lang.String add in API 26
+android.telephony.TelephonyManager.getMeid(int)java.lang.String add in API 26
+android.telephony.TelephonyManager.getVoiceActivationState(int)int add in API 26
+android.telecom.TelecomManager.getPhoneAccountsSupportingScheme(java.lang.String)java.util.List<android.telecom.PhoneAccountHandle> permission change 
+android.telecom.TelecomManager.getSelfManagedPhoneAccounts()java.util.List<android.telecom.PhoneAccountHandle> add in API 26
+android.telecom.TelecomManager.isTtySupported()boolean permission change(add)
+android.telecom.TelecomManager.isInManagedCall()boolean add in API 26
+android.telephony.TelephonyManager.isIdle()boolean permission change
+android.telephony.TelephonyManager.isVideoCallingEnabled()boolean permission change(add)
+android.telephony.TelephonyManager.isVisualVoicemailEnabled(android.telecom.PhoneAccountHandle)boolean        add in 25
