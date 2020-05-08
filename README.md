@@ -1,8 +1,8 @@
-# ARP-Mappings
+# ARP-DP mappings
 
-This repository includes the mapping relationship between permissions  and API in Android API 23 to API 29.  The data acquisition depends on the content provided by annotations  and  Java Doc in the source code .
+This repository includes the mapping relationship between permissions  and API in Android API 23 to API 29.  The data acquisition depends on the content provided by annotations  and  Java Doc in the source code . In addition to this, it also includes differences in the mapping of dangerous permissions between any version pair.
 
-These mappings are mainly used in our paper to explore the issues of Android runtime permission. The mapping relationship is extracted from source code, so these mapping relationships are more reliable and help the issues of out paper research more accurate.
+These mapping results are mainly used in our paper to explore the issues of Android runtime permission. The mapping relationship is extracted from source code, so these mapping relationships are more reliable and help the issues of out paper research more accurate.
 
 ## Mappings
 
@@ -28,7 +28,7 @@ The mappings we extracted from the Java Doc are not very accurate, because some 
 
 
 
-## Mapping Difference
+## Mappings Difference
 
 We compared the differences in mappings related to dangerous permissions in different versions, and got these results.
 

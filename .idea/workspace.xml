@@ -2,7 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="622a0a13-c2c6-4345-87db-538285b80362" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ARP-mappings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/23_24difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/24_25difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/25_26difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/26_27difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/27_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/28_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/consecutiveVersion/permissions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_24difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_25difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_26difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_27difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/23_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/24_25difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/24_26difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/24_27difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/24_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/24_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/25_26difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/25_27difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/25_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/25_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/26_27difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/26_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/26_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/27_28difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/27_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/28_29difference.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mappingDifference/pairwiseVersion/permissions.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,8 +45,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -20,6 +75,30 @@
     <option name="height" value="688" />
   </component>
   <component name="ProjectId" id="1baNQixFnmzZyhEJBNHvpUb6gxf" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ARP-mappings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ARP-mappings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ARP-mappings" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ARP-mappings" type="462c0819:PsiDirectoryNode" />
+              <item name="mappingsDifference" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,18 +128,22 @@
       <updated>1588865456033</updated>
       <workItem from="1588866238372" duration="187000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1588920873099</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588920873099</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -68,6 +151,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -107,5 +194,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/desktop.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
