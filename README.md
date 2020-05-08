@@ -1,22 +1,22 @@
 # ARP-DP mappings
 
-This repository includes the mapping relationship between permissions  and API in Android API 23 to API 29.  The data acquisition depends on the content provided by annotations  and  Java Doc in the source code . In addition to this, it also includes differences in the mapping of dangerous permissions between any version pair.
+This repository includes the mapping relationships between dangerous permissions  and Android APIs in API level 23 to API level 29.  This relationships obtained form the Java annotations  and  Java Docs in the source code.  Besides,  this repository also includes differences in the mapping of dangerous permissions between different versions.
 
-These mapping results are mainly used in our paper to explore the issues of Android runtime permission. The mapping relationship is extracted from source code, so these mapping relationships are more reliable and help the issues of out paper research more accurate.
+These mapping results are mainly used in our paper to explore the issues of Android runtime permission. The mapping relationships is extracted from source code, so these mapping relationships are more reliable and help our paper research issues more accurate.
 
 ## Mappings
 
-Runtime permission have been introduced since Android 6.0(API 23) , and now evolved to Android 10. In order to explore the evolution and problems that arise, it is necessary to have a more detailed mapping relationship for each version.
+Runtime permission have been introduced since Android 6.0(API level 23) , and now evolved to Android 10.0(API level 29). In order to explore the evolution and problems that arise, it is necessary to establish a more detailed mapping relationships for each version.
 
 We extract mappings from two ways, so for each version there are also two mappings provided(`annotations-Mappings.txt` and `docs-Mappings.txt`).
 
 ### Annotation
 
-In this way, the main method of annotating the need for permission is extracted . The form of the annotation is like :`@RequiresPermission(android.Manifest.permission.PERMISSION_NAME)`. 
+In this way, the method of annotating the need for permission is extracted . The form of the annotation is like :`@RequiresPermission(android.Manifest.permission.PERMISSION_NAME)`. 
 
 ### Java Doc
 
-In this way, the method of including`Requires Permission:{@link android.Manifest.permission# PERMISSION_NAME}` in the Java Doc is extracted.
+In this way, the method of including `@link android.Manifest.permission# PERMISSION_NAME}` in the Java Docs is extracted.
 
 
 
@@ -36,17 +36,17 @@ We compared the differences in mappings related to dangerous permissions in diff
 
 - ADD
 
-  If `permission-protected API not in API VERSION_X && permission-protected API in API VERSION_Y` is identified as `ADD`
+  For example, `23_24DIfference.txt` , if  `permission-protected API not in API 23 && permission-protected API in API 24` is identified as `ADD`
 
 - DELETE
 
-  If `permission-protected API in API VERSION_X && permission-protected API  not in API VERSION_Y` is identified as `DELETE`
+  For example, `23_24DIfference.txt`, if `permission-protected API in API 23 && permission-protected API  not in API 24` is identified as `DELETE`
 
 ### Change of mapping relationships
 
 - CHANGE
 
-  For `permission-protected API`，if the required permission in `VERSION_X` is `List_X`，the required permission in `VERSION_Y` is `List_Y`，if `List_X != List_Y`，then the identifier is `CHANGE`.
+  For `permission-protected API`，if the required permission in `VERSION_X` is `List_X`and the required permission in `VERSION_Y` is `List_Y`，if `List_X != List_Y`，then the identifier is `CHANGE`.
 
 ### Change of dangerous permissions
 
